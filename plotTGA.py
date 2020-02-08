@@ -119,10 +119,3 @@ def plot_one_only(x,y,x_name=None,y_name=None,xlim=[],title=None,ylim=[]):
     plt.show()
     return None
 
-dmf=read_excel('/media/arachan/37E23CAE71B08C4E/research/Research Docs/MOF/experiment/TGDTA/ZIF 1-4 DMF.xlsx','Sheet4')
-#plot_the_graph(dmf,'TG-DTA ZIF 1:4 DMF')
-plot_one_only(dmf.temp,dmf.tg+100,x_name='Temperature ($^o$C)',y_name='%mass',xlim=[min(dmf.temp),max(dmf.temp)],ylim=[0,100])
-#plt.plot(dmf.temp,dmf.tg)
-#plt.xlim(30,600)
-#plt.ylim(50,100)
-#plt.show()
