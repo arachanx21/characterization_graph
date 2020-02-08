@@ -18,9 +18,6 @@ def from_txt_to_csv(sourcefile,desired_filename):
     print(pd.read_csv(desired_filename))
     print('file',desired_filename,'created')
     file.close()
-    #clearing the shit
-    data=pd.read_csv(desired_filename)
-    for i in 
     
 
 #sourcefile=input("enter source file name: ")
